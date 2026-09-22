@@ -15,3 +15,5 @@ function! RoundNumber(precision)
 		echo "No valid number found under cursor."
 	endif
 endfunction
+
+command! -nargs=1 Round call RoundNumber(<args>)
