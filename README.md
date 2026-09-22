@@ -10,6 +10,30 @@ Clone vim rounder into your Vim runtime directory:
 git clone https://github.com/aamidd/vim-rounder.git ~/.vim/pack/plugins/start/vim-rounder
 ```
 
+## Usage
+
+Place your cursor on any number and run:
+
+```vim
+:Round 3
+```
+
+Replace 3 with any other precision you'd like.
+
+For example, after `:Round 3`:
+
+```text
+2.71828
+```
+
+becomes:
+
+```text
+2.718
+```
+
+## Key mapping
+
 I won't force a keybinding on you, but this is my recommendation. Just add it to your `.vimrc` file:
 
 ```vim
