@@ -15,12 +15,12 @@ git clone https://github.com/aamidd/vim-rounder.git ~/.vim/pack/plugins/start/vi
 Place your cursor on any number and run:
 
 ```vim
-:Round 3
+:Round 4
 ```
 
-Replace 3 with any other precision you'd like.
+Replace 4 with any other precision you'd like.
 
-For example, after `:Round 3`:
+For example, after `:Round 4`:
 
 ```text
 2.71828
@@ -29,7 +29,7 @@ For example, after `:Round 3`:
 becomes:
 
 ```text
-2.718
+2.7183
 ```
 
 ## Key mapping
